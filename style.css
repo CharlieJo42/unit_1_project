@@ -11,7 +11,7 @@
 #A {
     width: 200px;
     height:200px;
-    border: 7px solid purple;
+    border: 7px solid olive;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
