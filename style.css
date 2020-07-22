@@ -28,6 +28,77 @@
     margin: 15px;
 
   }
+
+  #C {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
+  #D {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
+  #E {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
+  #F {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
+  #G {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
+  #H {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
+  #I {
+    width: 200px;
+    height:200px;
+    border: 7px solid darkslateblue;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+
+  }
   /*John helped me figure out how to get the boxes to wrap around */
   
   .tileRow{
@@ -45,8 +116,35 @@
     margin: 0 auto;
   }
 
+  /*okay it took a lot of Google searches but I finally figured this color-click-change  out! 
+  80% Google, 20% my own inference because it wasn't spelled out anywhere. Yay me. :P  */
+ 
+ button#A:focus {
+     background: red;
+ }
  button#B:focus {
-    background:pink;
+    background:orange;  
+}
+button#C:focus {
+    background:yellow;  
+}
+button#D:focus {
+    background:green;  
+}
+button#E:focus {
+    background:blue;  
+}
+button#F:focus {
+    background:purple;  
+}
+button#G:focus {
+    background:pink;  
+}
+button#H:focus {
+    background:black;  
+}
+button#I:focus {
+    background:brown;  
 }
   /* :focus {
    color:pink
