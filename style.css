@@ -1,0 +1,36 @@
+/* .tileRow {
+  width: 200px;
+  height:200px;
+  border: 7px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin: 15px;
+} */
+
+#A {
+    width: 200px;
+    height:200px;
+    border: 7px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 15px;
+  }
+  
+  /*John helped me figure out how to get the boxes to wrap around */
+  
+  .tileRow{
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .tileRow2{
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .tileRow3{
+    display: flex;
+    margin: 0 auto;
+  }
