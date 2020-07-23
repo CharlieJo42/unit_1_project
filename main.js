@@ -8,6 +8,9 @@ var colorArray = ["Red", "Red1", "Orange", "Orange1",
 "Brown", "Brown1"];
 
 //code on line 11 taken from stackoverflow//
-const randomColor = colorArray[Math.floor(Math.random() * colorArray.length)];
+var randomColor = colorArray[Math.floor(Math.random() * colorArray.length)];
 
 console.log("random color =>", randomColor);
+
+
+colorArray.onclick = randomColor
