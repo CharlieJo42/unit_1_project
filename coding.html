@@ -45,12 +45,12 @@
 
 var red = document.getElementById("0")
 
-red.addEventListener("click", functionRed);
-function functionRed () {
+red.addEventListener("click", turnRed);
+function turnRed () {
       document.getElementById("0").style.backgroundColor = "red";
 }
-red.addEventListener("dblclick", functionUnRed);
-function functionUnRed () {
+red.addEventListener("dblclick", noRed);
+function noRed () {
       document.getElementById("0").style.backgroundColor = "gray";
 }
 
@@ -59,13 +59,13 @@ function functionUnRed () {
 
 var red2 = document.getElementById("1")
 
-red2.addEventListener("click", functionRed1);
-function functionRed1 () {
+red2.addEventListener("click", turnRed2);
+function turnRed2 () {
       document.getElementById("1").style.backgroundColor = "red";
 }
 
-red2.addEventListener("dblclick", functionUnRed1);
-function functionUnRed1 () {
+red2.addEventListener("dblclick", noRed2);
+function noRed2 () {
       document.getElementById("1").style.backgroundColor = "gray";
 }
 
@@ -73,60 +73,118 @@ function functionUnRed1 () {
 
 var orange = document.getElementById("2")
 
-orange.addEventListener("click", functionOrange);
-function functionOrange () {
+orange.addEventListener("click", turnOrange);
+function turnOrange () {
       document.getElementById("2").style.backgroundColor = "orange";
 }
 
-orange.addEventListener("dblclick", functionOrange);
-function functionOrange () {
+orange.addEventListener("dblclick", noOrange);
+function noOrange () {
       document.getElementById("2").style.backgroundColor = "gray";
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+var orange2 = document.getElementById("3")
 
 
-
-
-
-
-
-document.getElementById("3").addEventListener("click", functionOrange1);
-function functionOrange1 () {
+orange2.addEventListener("click", turnOrange2);
+function turnOrange2 () {
       document.getElementById("3").style.backgroundColor = "orange";
 }
 
-document.getElementById("4").addEventListener("click", functionYellow);
-function functionYellow () {
+orange2.addEventListener("dblclick", noOrange2);
+function noOrange2 () {
+      document.getElementById("3").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+var yellow = document.getElementById("4")
+
+yellow.addEventListener("click", turnYellow);
+function turnYellow () {
       document.getElementById("4").style.backgroundColor = "yellow";
 }
 
-document.getElementById("5").addEventListener("click", functionYellow1);
-function functionYellow1 () {
+yellow.addEventListener("dblclick", noYellow);
+function noYellow () {
+      document.getElementById("4").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var yellow2 = document.getElementById("5")
+
+yellow2.addEventListener("click", turnYellow2);
+function turnYellow2 () {
       document.getElementById("5").style.backgroundColor = "yellow";
 }
 
-document.getElementById("6").addEventListener("click", functionGreen);
-function functionGreen () {
+yellow2.addEventListener("dblclick", noYellow2);
+function noYellow2 () {
+      document.getElementById("5").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var green = document.getElementById("6")
+
+green.addEventListener("click", turnGreen);
+function turnGreen () {
       document.getElementById("6").style.backgroundColor = "green";
 }
 
-document.getElementById("7").addEventListener("click", functionGreen1);
-function functionGreen1 () {
+green.addEventListener("dblclick", noGreen);
+function noGreen () {
+      document.getElementById("6").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var green2 = document.getElementById("7")
+
+green2.addEventListener("click", turnGreen2);
+function turnGreen2 () {
       document.getElementById("7").style.backgroundColor = "green";
 }
 
-document.getElementById("8").addEventListener("click", functionBlue);
-function functionBlue () {
+green2.addEventListener("dblclick", noGreen2);
+function noGreen2 () {
+      document.getElementById("7").style.backgroundColor = "gray";
+} 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var blue = document.getElementById("8")
+
+blue.addEventListener("click", turnBlue);
+function turnBlue () {
       document.getElementById("8").style.backgroundColor = "blue";
 }
 
-document.getElementById("9").addEventListener("click", functionBlue1);
-function functionBlue1 () {
+blue.addEventListener("dblclick", noBlue);
+function noBlue () {
+      document.getElementById("8").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var blue2 = document.getElementById("9")
+
+blue2.addEventListener("click", turnBlue2);
+function turnBlue2 () {
       document.getElementById("9").style.backgroundColor = "blue";
 }
+
+blue2.addEventListener("dblclick", noBlue2);
+function noBlue2 () {
+      document.getElementById("9").style.backgroundColor = "gray"
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.getElementById("10").addEventListener("click", functionPurple);
 function functionPurple () {
