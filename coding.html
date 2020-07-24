@@ -2,8 +2,10 @@
 <html>
   <head>
       <link rel="stylesheet" type="text/css" href="style.css"> 
+      <script src="main.js"></script>
   </head>
   <body>
+      
     <div class="tileRow">
       <button class="tilePiece"id="0"></button>
       <button class="tilePiece"id="8"></button>
@@ -11,12 +13,7 @@
       <button class="tilePiece"id="15"></button>
       <button class="tilePiece"id="11"></button>
       <button class="tilePiece"id="16"></button>
-      <!-- <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div> -->
+     
     </div>
    <div class="tileRow2">
     <button class="tilePiece"id="3"></button>
@@ -25,59 +22,76 @@
     <button class="tilePiece"id="4"></button>
     <button class="tilePiece"id="12"></button>
     <button class="tilePiece"id="1"></button>
-      <!-- <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div> -->
-    </div>
-    <div class="tileRow3">
-        <button class="tilePiece"id="5"></button>
-        <button class="tilePiece"id="6"></button>
-        <button class="tilePiece"id="13"></button>
-        <button class="tilePiece"id="7"></button>
-        <button class="tilePiece"id="10"></button>
-        <button class="tilePiece"id="17"></button>
-    </div>
-       <!-- <div class="tileRow3">
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-      <div class="tilePiece"id="A"></div>
-    </div>
-       -->
-      
-      
-<!--       <div class="tilePiece">a</div>
-    <div class="tile2">b</div>
-    <div class="tile3">c</div>
-    <div class="tile4">d</div>
-    <div class="tile1">a1</div>
-    <div class="tile2">b1</div>
-    <div class="tile3">c1</div>
-    <div class="tile4">d1</div> -->
-    
-    <!----code taken from w3schools-->
-    <!-- <button id="0">Click Me.</button> -->
+
+</div>
+<div class="tileRow3">
+    <button class="tilePiece"id="5"></button>
+    <button class="tilePiece"id="6"></button>
+    <button class="tilePiece"id="13"></button>
+    <button class="tilePiece"id="7"></button>
+    <button class="tilePiece"id="10"></button>
+    <button class="tilePiece"id="17"></button>
+</div>
+
+
+
     <script>
-document.getElementById("0").addEventListener("click", functionRed);
+// let tileElements = document.getElementByClassName("tileRow"); 
+// for(i = 0; i < tileElementsArray.length; i++) {
+//       tileElementsArray[i].addEventListener("click")
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var red = document.getElementById("0")
+
+red.addEventListener("click", functionRed);
 function functionRed () {
       document.getElementById("0").style.backgroundColor = "red";
 }
+red.addEventListener("dblclick", functionUnRed);
+function functionUnRed () {
+      document.getElementById("0").style.backgroundColor = "gray";
+}
 
-document.getElementById("1").addEventListener("click", functionRed1);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var red2 = document.getElementById("1")
+
+red2.addEventListener("click", functionRed1);
 function functionRed1 () {
       document.getElementById("1").style.backgroundColor = "red";
 }
- 
-document.getElementById("2").addEventListener("click", functionOrange);
+
+red2.addEventListener("dblclick", functionUnRed1);
+function functionUnRed1 () {
+      document.getElementById("1").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var orange = document.getElementById("2")
+
+orange.addEventListener("click", functionOrange);
 function functionOrange () {
       document.getElementById("2").style.backgroundColor = "orange";
 }
+
+orange.addEventListener("dblclick", functionOrange);
+function functionOrange () {
+      document.getElementById("2").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
 
 document.getElementById("3").addEventListener("click", functionOrange1);
 function functionOrange1 () {
@@ -156,20 +170,8 @@ function functionBrown1 () {
 }
 }
 
-// document.querySelectorAll('tilePiece');
-// for (var i = 0; i < tileClick.length; i++) {
-//     tileClick[i].addEventListener('click', function (event)
-//     {console.log('clicked');
 
-// }, false);
-
- </script>
-
-//     <!-- <button type="button" onclick="myFunction()">Click Me</button>
-// <script>
-//     function myFunction() {
-//         document.getElementByClassName("tilePiece").style.color = "#ff0000";
-//     }
-// </script>
+</script>
 </body>
 </html>
+
