@@ -1,5 +1,3 @@
-
-
 div button {
     width: 200px;
     height:200px;
@@ -9,9 +7,6 @@ div button {
     flex-wrap: wrap;
     margin: 15px;
   }
-
-
-    /*John helped me figure out how to get the boxes to wrap around */
   
     .tileRow{
       display: flex;
@@ -27,6 +22,11 @@ div button {
       display: flex;
       margin: 0 auto;
     }
+
+
+
+
+    
 
   /* .tileRow {
   width: 200px;

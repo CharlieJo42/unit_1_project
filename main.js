@@ -3,10 +3,6 @@ var colorArray = ["Red", "Red", "Orange", "Orange", "Yellow", "Yellow", "Green",
 // var arr1 = ["red", "orange", "yellow", "green", "blue", "purple", "pink", "black", "brown"];
 // var arr2 = ["red", "orange", "yellow", "green", "blue", "purple", "pink", "black", "brown"];
 
-if(document.getElementById('button').clicked == true)
-{ var haha = prompt("what is happening?", "who knows");
-   alert("button was clicked");
-}
 // document.getElementById("0").addEventListener("click", functionRed);
 // function functionRed () {
 //       document.getElementById("0").style.backgroundColor = "red";

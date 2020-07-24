@@ -186,45 +186,113 @@ function noBlue2 () {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-document.getElementById("10").addEventListener("click", functionPurple);
-function functionPurple () {
+var purple = document.getElementById("10")
+
+purple.addEventListener("click", turnPurple);
+function turnPurple () {
       document.getElementById("10").style.backgroundColor = "purple";
 }
 
-document.getElementById("11").addEventListener("click", functionPurple1);
-function functionPurple1 () {
+purple.addEventListener("dblclick", noPurple);
+function noPurple () {
+      document.getElementById("10").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var purple2= document.getElementById("11")
+purple2.addEventListener("click", turnPurple2);
+function turnPurple2 () {
       document.getElementById("11").style.backgroundColor = "purple";
 }
 
-document.getElementById("12").addEventListener("click", functionPink);
-function functionPink () {
+purple2.addEventListener("dblclick", noPurple2);
+function noPurple2 () {
+      document.getElementById("11").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var pink = document.getElementById("12")
+
+pink.addEventListener("click", turnPink);
+function turnPink () {
       document.getElementById("12").style.backgroundColor = "pink";
 }
 
-document.getElementById("13").addEventListener("click", functionPink1);
-function functionPink1 () {
+pink.addEventListener("dblclick", noPink);
+function noPink () {
+      document.getElementById("12").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var pink2 = document.getElementById("13")
+
+pink2.addEventListener("click", turnPink2);
+function turnPink2 () {
       document.getElementById("13").style.backgroundColor = "pink";
 }
 
-document.getElementById("14").addEventListener("click", functionBlack);
-function functionBlack () {
+pink2.addEventListener("dblclick", noPink2);
+function noPink2 () {
+      document.getElementById("13").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+var black = document.getElementById("14")
+
+black.addEventListener("click", turnBlack);
+function turnBlack () {
       document.getElementById("14").style.backgroundColor = "black";
 }
 
-document.getElementById("15").addEventListener("click", functionBlack1);
-function functionBlack1 () {
+black.addEventListener("dblclick", noBlack);
+function noBlack () {
+      document.getElementById("14").style.backgroundColor = "gray";
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var black2 = document.getElementById("15")
+
+black2.addEventListener("click", turnBlack2);
+function turnBlack2 () {
       document.getElementById("15").style.backgroundColor = "black";
 
+black2.addEventListener("dblclick", noBlack2);
+function noBlack2 () {
+      document.getElementById("15").style.backgroundColor = "gray";
+}
 
-document.getElementById("16").addEventListener("click", functionBrown);
-function functionBrown () {
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var brown = document.getElementById("16")
+
+brown.addEventListener("click", turnBrown);
+function turnBrown () {
       document.getElementById("16").style.backgroundColor = "brown";
 }
 
+brown.addEventListener("dblclick", noBrown);
+function noBrown () {
+      document.getElementById("16").style.backgroundColor = "gray";
+}
 
-document.getElementById("17").addEventListener("click", functionBrown1);
-function functionBrown1 () {
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var brown2 = document.getElementById("17")
+
+brown2.addEventListener("click", turnBrown2);
+function turnBrown2 () {
       document.getElementById("17").style.backgroundColor = "brown";
+}
+
+brown2.addEventListener("dblclick", noBrown2);
+function noBrown2 () {
+      document.getElementById("17").style.backgroundColor = "gray";
 }
 }
 
