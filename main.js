@@ -169,12 +169,12 @@ sand25.addEventListener("click", brown25);
 function brown25 () {
       document.getElementById("25").style.backgroundColor = "tan"
 }
-var trail26 = document.getElementById("26")
+// var trail26 = document.getElementById("26")
 
-trail26.addEventListener("click", red26);
-function red26 () {
-      document.getElementById("26").style.backgroundColor = "red";
-}
+// trail26.addEventListener("click", red26);
+// function red26 () {
+//       document.getElementById("26").style.backgroundColor = "red";
+// }
 
 // var water7 = document.getElementById("7")
 
