@@ -163,11 +163,12 @@ function brown24 () {
     document.getElementById("24").style.backgroundColor = "tan"; 
 }
 
-var sand25 = document.getElementById("25")
 
-sand25.addEventListener("click", brown25);
-function brown25 () {
-      document.getElementById("25").style.backgroundColor = "tan"
+var trail25 = document.getElementById("25")
+
+trail25.addEventListener("click", red25);
+function red25 () {
+      document.getElementById("25").style.backgroundColor = "red";
 }
 
 var trail26 = document.getElementById("26")
@@ -310,6 +311,8 @@ function green46 () {
     document.getElementById("46").style.backgroundColor = "green"; 
 }
 
+var pirate47 = document.getElementById("47")
+
 pirate47.addEventListener("click", ahoy47);
 function ahoy47 () {
       document.getElementById("47").style.backgroundColor = "black";
@@ -329,13 +332,93 @@ function green49 () {
     document.getElementById("49").style.backgroundColor = "green"; 
 }
 
+var pirate50 = document.getElementById("50");
+
 pirate50.addEventListener("click", ahoy50);
 function ahoy50 () {
       document.getElementById("50").style.backgroundColor = "black";
 }
 
+var grass51 = document.getElementById("51")
+
+grass51.addEventListener("click", green51);
+function green51 () {
+    document.getElementById("51").style.backgroundColor = "green"; 
+}
 
 
+var sand52 = document.getElementById("52")
+
+sand52.addEventListener("click", brown52);
+function brown52 () {
+    document.getElementById("52").style.backgroundColor = "tan"; 
+}
+
+var trail53= document.getElementById("53")
+
+trail53.addEventListener("click", red53);
+function red53 () {
+      document.getElementById("53").style.backgroundColor = "red";
+}
+
+var sand54 = document.getElementById("54")
+
+sand54.addEventListener("click", brown54);
+function brown54 () {
+    document.getElementById("54").style.backgroundColor = "tan"; 
+}
+
+
+var water55 = document.getElementById("55")
+
+water55.addEventListener("click", blue55);
+function blue55 () {
+      document.getElementById("55").style.backgroundColor = "blue";
+}
+
+
+var water56 = document.getElementById("56")
+
+water56.addEventListener("click", blue56);
+function blue56 () {
+      document.getElementById("56").style.backgroundColor = "blue";
+}
+
+
+var water57 = document.getElementById("57")
+
+water57.addEventListener("click", blue57);
+function blue57 () {
+      document.getElementById("57").style.backgroundColor = "blue";
+}
+
+var water58 = document.getElementById("58")
+
+water58.addEventListener("click", blue58);
+function blue58 () {
+      document.getElementById("58").style.backgroundColor = "blue";
+}
+
+var sand59 = document.getElementById("59")
+
+sand59.addEventListener("click", brown59);
+function brown59 () {
+    document.getElementById("59").style.backgroundColor = "tan"; 
+}
+
+var grass60 = document.getElementById("60")
+
+grass60.addEventListener("click", green60);
+function green60 () {
+    document.getElementById("60").style.backgroundColor = "green"; 
+}
+
+var grass61 = document.getElementById("61")
+
+grass61.addEventListener("click", green61);
+function green61 () {
+    document.getElementById("61").style.backgroundColor = "green"; 
+}
 
 
 

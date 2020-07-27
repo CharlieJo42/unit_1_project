@@ -1,0 +1,38 @@
+var trail35= document.getElementById("35")
+
+trail35.addEventListener("click", red35);
+function red35 () {
+      document.getElementById("35").style.backgroundColor = "red";
+}
+
+
+
+var water7 = document.getElementById("7")
+
+// water7.addEventListener("click", blue7);
+// function blue7 () {
+//       document.getElementById("7").style.backgroundColor = "blue";
+// }
+
+
+var sand24 = document.getElementById("24")
+
+sand24.addEventListener("click", brown24);
+function brown24 () {
+    document.getElementById("24").style.backgroundColor = "tan"; 
+}
+
+
+var grass45 = document.getElementById("45")
+
+grass45.addEventListener("click", green45);
+function green45 () {
+    document.getElementById("45").style.backgroundColor = "green"; 
+}
+
+var pirate16 = document.getElementById("16")
+
+pirate16.addEventListener("click", ahoy16);
+function ahoy16 () {
+      document.getElementById("16").style.backgroundColor = "black";
+}
