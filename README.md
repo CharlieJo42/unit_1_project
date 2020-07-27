@@ -1,6 +1,6 @@
 "Treasure Hunt" is a scaled-down version of the classic "Minesweeper" game. 
 
-151 buttons are laid out in a grid pattern and rendered transparent in order to bring up the background image of an old pirate's map. This is to create the illusion that you are holding the map and trying to figure out where to go, one button click at a time. 
+152 buttons are laid out in a grid pattern and rendered transparent in order to bring up the background image of an old pirate's map. This is to create the illusion that you are holding the map and trying to figure out where to go, one button click at a time. 
 
 The buttons are coded to be different colors, each with a specific meaning:
 
